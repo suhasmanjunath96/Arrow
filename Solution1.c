@@ -11,7 +11,7 @@ printf("Entered number is odd");
 else
 printf("Entered number is even");
 printf("\nDo you want to enter one more number(y/n):");
-scanf(" %c",&ch);
+scanf(" %c",&ch);  //insert a space so that the error gets rectified
 }
 while(toupper(ch)=='Y');
 }
